@@ -1,3 +1,10 @@
 record:
 1 2020-05-10 github_repository init
-2 
+2 2020-05-10 git-push question solved
+  solution record:
+    Q: Cannot push with words----failed to push some refs to 'https://github.com/Lazyrua/github_repository1.git'
+    A: Utilize the strong command: git pull origin master --allow-unrelated-histories 
+      to merge unrelated branches， 
+      maybe it will come with a edit window(vim), u can just exit(esc + ZZ) or operate with the hints it gives to u.
+      
+      Then you can push again~
